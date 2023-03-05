@@ -1,0 +1,42 @@
+/*Corpo*/
+body
+{
+    margin: 0;
+    font-family: 'Golos Text', sans-serif;
+}
+
+/*Cabeçalho e Rodapé*/
+header, footer
+{
+    background-color: #FD8E39;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+/*Somente cabeçalho*/
+header
+{
+    padding: 50px;
+}
+
+/*foto de perfil*/
+header img
+{
+    width: 100px;
+    height: 120px; 
+}
+
+section
+{
+    border-radius: 25px;
+    margin: 50px;
+    padding: 50px;
+    background-color: #507FB4;
+}
+
+/*Somente Rodapé*/
+footer
+{
+    padding: 20px;
+}
