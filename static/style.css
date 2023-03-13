@@ -8,8 +8,7 @@ body
 /*Cabeçalho e Rodapé*/
 header, footer
 {
-    background-color: #FD8E39;
-    padding: 50px;
+    background-color: #FD8E39 ;
     text-align: center;
     color: white;
 }
@@ -27,6 +26,32 @@ header img
     height: 120px; 
 }
 
+nav
+{
+    background-color: #ad6026;
+    text-align: center;
+    padding: 30px;
+}
+
+nav ul
+{
+    margin: 0;
+}
+
+nav ul li
+{
+    display: inline;
+    margin: 25px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: bold;
+    color: white;
+}
+
 section
 {
     border-radius: 25px;
@@ -39,4 +64,24 @@ section
 footer
 {
     padding: 20px;
+}
+
+
+.button{
+    border: 0;
+    color: #ad6026;
+    padding: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+    color: #507FB4;
+    background-color: #FD8E39;
+}
+
+@media only screen and (max-width: 600px)
+{
+    nav ul li{
+    margin: 15px;
+    }
 }
