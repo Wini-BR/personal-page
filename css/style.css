@@ -1,31 +1,23 @@
-/*Corpo*/
-body
-{
+/*Global*/
+body{
     margin: 0;
+    padding: 0;
     font-family: 'Golos Text', sans-serif;
+    color: whitesmoke;
 }
 
 /*Cabeçalho e Rodapé*/
-header, footer
-{
-    background-color: #FD8E39 ;
-    text-align: center;
-    color: white;
+header, footer{
+background-color: #fd8e39;
+text-align: center;
 }
 
-/*Somente cabeçalho*/
-header
-{
+/*cabeçaçho*/
+header{
     padding: 50px;
 }
 
-/*foto de perfil*/
-header img
-{
-    width: 100px;
-    height: 120px; 
-}
-
+/*menu*/
 nav
 {
     background-color: #ad6026;
@@ -46,19 +38,13 @@ nav ul li
 
 nav ul li a
 {
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
     text-transform: bold;
-    color: white;
 }
 
-section
-{
-    border-radius: 25px;
-    margin: 50px;
-    padding: 50px;
-    background-color: #507FB4;
-}
+
 
 /*Somente Rodapé*/
 footer
@@ -66,18 +52,6 @@ footer
     padding: 20px;
 }
 
-
-.button{
-    border: 0;
-    color: #ad6026;
-    padding: 10px;
-}
-
-.button:hover{
-    cursor: pointer;
-    color: #507FB4;
-    background-color: #FD8E39;
-}
 
 @media only screen and (max-width: 600px)
 {

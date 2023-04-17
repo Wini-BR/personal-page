@@ -1,0 +1,20 @@
+main{
+    padding: 5%;
+    text-align: center;
+}
+main h1{
+    color: black;
+    text-align: center;
+}
+
+main p{
+    color: black;
+}
+.item-portfolio
+{
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #8697A6;
+    border-radius: 15px;
+    margin: 50px;
+}

@@ -1,10 +1,12 @@
+
 form
 {
+    color: black;
     width: 400px;
     padding: 20px;
     margin: 100px auto;
     border-radius: 15px;
-    background-color: #FD8E39;
+    background-color: #028618;
 }
 
 form fieldset
